@@ -4,7 +4,7 @@ import { registerScreens } from './screens';
 registerScreens()
 
 export default () => {
-   return  Navigation.events().registerAppLaunchedListener(() => {
+    return  Navigation.events().registerAppLaunchedListener(() => {
         Navigation.setRoot({
             root: {
                 component: {
